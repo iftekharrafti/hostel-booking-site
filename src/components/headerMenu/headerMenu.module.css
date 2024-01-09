@@ -1,0 +1,140 @@
+.navbar {
+    background: #fff;
+    color: black;
+    padding: 8px 0;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0;
+  }
+  .topHeader {
+    display: none;
+  }
+  @media screen and (max-width: 992px) {
+    .topHeader {
+      display: block;
+    }
+  }
+  .nav {
+    padding: 12px 0;
+  }
+  .logo {
+    width: 200px;
+    height: 55px;
+  }
+  .menuBrand {
+    color: black;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-right: 25px;
+    padding: 10px 0 44px 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 30px;
+    font-weight: 500;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+  }
+  @media screen and (max-width: 992px) {
+    .navbar a{
+      padding: 8px 0;
+    }
+  }
+  .navbar .link.active {
+    color: #009cff;
+  }
+  .navbar .link:hover {
+    color: #009cff;
+    transition: 0.1s;
+  }
+  
+  .dropdown-menu {
+    padding: 0;
+    background-color: #eaeaea;
+  }
+  .dropdownItem {
+    background-color: #eaeaea;
+    margin-bottom: 10px;
+  }
+  .dropdownItem .link {
+    padding: 4px 0;
+  }
+  .dropdownItem a {
+    color: black;
+  }
+  
+  /* Search box */
+  .searchBox {
+    background: #D8DADF;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    position: relative;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 200px;
+  }
+  
+  .searchButton {
+    color: #2f3640;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    background: #D8DADF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    border: 0;
+  }
+  
+  .searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    width: 200px;
+    padding-left: 15px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .searchBox{
+      width: 200px;
+    }
+  }
+  
+  /* Application and login button */
+  .headerTopButton{
+    font-size: 14px;
+    background: rgb(255, 198, 0);
+    color: black;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 198, 0);
+  }
+  .headerTopButton:hover{
+    background: rgb(223, 175, 1);
+    border: 1px solid rgb(223, 175, 1);
+  }
+  
+  /* Add this CSS to your custom stylesheet or component */
+  .customDropdown:hover .dropdown-menu {
+    display: block !important; /* Set the dropdown menu to be visible on hover */
+  }
+  

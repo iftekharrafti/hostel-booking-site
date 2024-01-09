@@ -1,0 +1,33 @@
+.login {
+    background: #edf0f2;
+    min-height: 80vh;
+  }
+  
+  .loginContainer {
+    background: #fff;
+    padding: 50px 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.31);
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.31);
+  }
+  
+  .inputField:hover,
+  .inputField:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .passwordField {
+    position: relative;
+    width: 100%;
+  }
+  .passwordIconDiv {
+    position: absolute;
+    right: 15px;
+    top: 6px;
+  }
+  .passwordIcon {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  

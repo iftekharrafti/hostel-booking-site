@@ -1,0 +1,10 @@
+.inputField:hover,
+.inputField:focus {
+  box-shadow: none;
+  outline: none;
+}
+.inputLabel {
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-weight: 600;
+  }

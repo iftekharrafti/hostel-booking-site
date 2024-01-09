@@ -1,0 +1,56 @@
+.mainContainer {
+  background: #eee;
+  position: relative;
+}
+.content {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  left: 250px;
+}
+.contentContainer{
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.date{
+  display: flex;
+}
+.from{
+  width: 40%;
+  margin-right: 4%;
+}
+.to{
+  width: 40%;
+  margin-right: 4%;
+}
+.submit{
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .content {
+    position: relative;
+    left: 0px;
+  }
+  .date{
+    display: flex;
+    flex-direction: column;
+  }
+  .from{
+    width: 100%;
+  }
+  .to{
+    width: 100%;
+  }
+  .submit{
+    width: 80px;
+    display: flex;
+    align-items: center;
+  }
+}
+
