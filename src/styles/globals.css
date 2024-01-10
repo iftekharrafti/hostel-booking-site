@@ -130,6 +130,12 @@ a {
   text-decoration: none;
 }
 
+.customButton {
+  padding: 2px 10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
